@@ -1,0 +1,12 @@
+services:
+  openai-agent:
+    build:
+      context: .
+      dockerfile: openai_agent/Dockerfile
+    ports:
+      - "${JUPYTER_PORT:-8888}:8888"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:?Please set OPENAI_API_KEY in the .env file}
+    volumes:
+      - ./openai_agent:/workspace
+      - ./shared:/workspace/shared
