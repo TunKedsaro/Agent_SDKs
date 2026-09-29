@@ -5,3 +5,5 @@ __pycache__/
 
 shared/results/*
 !shared/results/.gitkeep
+
+node_modules/
