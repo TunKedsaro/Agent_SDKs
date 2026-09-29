@@ -24,3 +24,16 @@ services:
     volumes:
       - ./pi_agent:/workspace/pi_agent
       - ./shared:/workspace/shared
+
+  deep-agent:
+    build:
+      context: .
+      dockerfile: deep_agent/Dockerfile
+    ports:
+      - "${DEEP_JUPYTER_PORT:-8890}:8888"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:?Please set OPENAI_API_KEY in the .env file}
+      TAVILY_API_KEY: ${TAVILY_API_KEY:?Please set TAVILY_API_KEY in the .env file}
+    volumes:
+      - ./deep_agent:/workspace/deep_agent
+      - ./shared:/workspace/shared
