@@ -16,4 +16,5 @@ CMD ["jupyter", "lab", \
      "--ip=0.0.0.0", \
      "--port=8888", \
      "--no-browser", \
-     "--ServerApp.token=agent-sdk-local"]
+     "--allow-root", \
+     "--IdentityProvider.token=agent-sdk-local"]
