@@ -1,0 +1,33 @@
+{
+  "long_prompt_math": {
+    "prompt": "You are reviewing a fictional company. Use only the figures below; do not use web search or add outside facts. FY2024: revenue 1,000 million THB, net income 80 million THB, total debt 300 million THB, cash 100 million THB. FY2025: revenue 1,200 million THB, net income 102 million THB, total debt 280 million THB, cash is not reported. Calculate revenue growth from FY2024 to FY2025, net income growth, net margin for both years, and net debt for each year only when both debt and cash are available. Show the formula for every calculation. Treat missing cash as unavailable, never as zero. Return an executive summary, a financial table, calculation notes, and data limitations. Label all figures as supplied test data, not externally verified facts.",
+    "requirements": [
+      "revenue_growth_is_20_percent",
+      "net_income_growth_is_27_5_percent",
+      "fy2024_net_margin_is_8_percent",
+      "fy2025_net_margin_is_8_5_percent",
+      "fy2024_net_debt_is_200_million_thb",
+      "fy2025_net_debt_is_unavailable",
+      "missing_cash_is_not_treated_as_zero",
+      "formulas_are_shown",
+      "all_requested_sections_are_present",
+      "data_is_labeled_as_supplied_test_data"
+    ]
+  },
+  "web_research_ptt": {
+    "prompt": "Research PTT Public Company Limited (SET ticker: PTT) as of 2026-09-29. Use the provided search and retrieval tools. Prioritize official PTT investor-relations materials, annual reports, financial statements, and SET disclosures. Verify the company's identity. Identify its most recently published completed fiscal year as of the cutoff date. Report revenue and net profit with amount, currency, period, and a source URL. Also report at least two material company developments published in the 12 months before the cutoff date, with their dates and source URLs. Cite a source URL for every factual claim. Label figures as reported or calculated. Explain missing information or conflicting sources instead of guessing. Do not give a buy or sell recommendation.",
+    "requirements": [
+      "company_identity_verified",
+      "cutoff_date_used",
+      "latest_completed_fiscal_year_identified",
+      "revenue_has_period_amount_currency_and_source",
+      "net_profit_has_period_amount_currency_and_source",
+      "at_least_two_recent_developments_with_dates",
+      "factual_claims_have_source_urls",
+      "official_sources_prioritized",
+      "reported_and_calculated_figures_distinguished",
+      "missing_or_conflicting_data_handled",
+      "no_buy_or_sell_recommendation"
+    ]
+  }
+}
