@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "saved_at_utc": "2026-10-06T14:33:50.313621+00:00",
+  "sdk": "pi_agent",
+  "category": "summary",
+  "results": [
+    {
+      "case_id": "error_001",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "error_002",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "history_001",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "history_002",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "history_003",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "long_context_001",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "long_context_002",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "math_001",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "math_002",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "math_003",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "mcp_001",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "mcp_002",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "mcp_003",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "planning_001",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 0,
+      "failed": 0,
+      "pending_review": 1,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": null
+    },
+    {
+      "case_id": "planning_002",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 0,
+      "failed": 0,
+      "pending_review": 1,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": null
+    },
+    {
+      "case_id": "smoke",
+      "case_version": null,
+      "unique_runs": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 0,
+      "pass_rate_evaluated_only": 1.0
+    },
+    {
+      "case_id": "web_native_001",
+      "case_version": "2.0",
+      "unique_runs": 1,
+      "passed": 0,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 1,
+      "pass_rate_evaluated_only": null
+    },
+    {
+      "case_id": "web_native_002",
+      "case_version": "2.0",
+      "unique_runs": 1,
+      "passed": 0,
+      "failed": 0,
+      "pending_review": 0,
+      "runtime_error": 0,
+      "unsupported": 1,
+      "pass_rate_evaluated_only": null
+    }
+  ],
+  "note": "Versions are separate; duplicate exports deduplicated by run_id. Unsupported/pending/runtime_error are not counted as failed answers."
+}
