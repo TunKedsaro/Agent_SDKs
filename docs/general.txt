@@ -1,0 +1,10 @@
+Jupyterlab Local host
+OpenAI Agent: http://localhost:8888/lab?token=agent-sdk-local
+Pi Agent    : http://localhost:8889/lab?token=pi-agent-local
+Deep Agent  : http://localhost:8890/lab?token=deep-agent-local
+
+official document
+OpenAI Agent : https://openai.github.io/openai-agents-python/
+Pi Agent : https://pi.dev/docs/latest/sdk
+https://docs.langchain.com/oss/python/deepagents/overview
+

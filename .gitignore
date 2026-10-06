@@ -7,3 +7,7 @@ shared/results/*
 !shared/results/.gitkeep
 
 node_modules/
+
+.DS_Store
+
+state
