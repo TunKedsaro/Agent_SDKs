@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "sdk": "deepagents",
+  "scope": "first_pass_benchmark",
+  "saved_at_utc": "2026-10-06T15:03:15.466289+00:00",
+  "saved_run_count": 16,
+  "status_counts": {
+    "passed": 13,
+    "failed": 2,
+    "pending_review": 1
+  },
+  "smoke_test_included": false,
+  "cases": [
+    {
+      "case_id": "history_001",
+      "run_id": "cb9a25d19087474a907f6ccb76cdd466",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "history_20261006T145938Z_26c4bcd5.json"
+    },
+    {
+      "case_id": "history_001",
+      "run_id": "afe0284ef1884bc19a2200695da6a03e",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "history_20261006T150151Z_d13f2af3.json"
+    },
+    {
+      "case_id": "history_002",
+      "run_id": "12f1120e2ef94d149a644fb71f93f931",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "history_20261006T145938Z_26c4bcd5.json"
+    },
+    {
+      "case_id": "history_002",
+      "run_id": "8436c94e1bde40799643ec2ec1b007d8",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "history_20261006T150151Z_d13f2af3.json"
+    },
+    {
+      "case_id": "long_context_001",
+      "run_id": "798f27c087ee41bfada30b8c3d812a5b",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "long_context_20261006T145925Z_44f7a1d9.json"
+    },
+    {
+      "case_id": "long_context_002",
+      "run_id": "6953c95b6a8c45aeae8fc6f8c902eebd",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "long_context_20261006T145925Z_44f7a1d9.json"
+    },
+    {
+      "case_id": "math_001",
+      "run_id": null,
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "math_20261006T145715Z_93313a90.json"
+    },
+    {
+      "case_id": "math_002",
+      "run_id": null,
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "math_20261006T145715Z_93313a90.json"
+    },
+    {
+      "case_id": "math_003",
+      "run_id": null,
+      "model": "gpt-6-luna",
+      "status": "failed",
+      "task_passed": false,
+      "source_file": "math_20261006T145715Z_93313a90.json"
+    },
+    {
+      "case_id": "mcp_001",
+      "run_id": "0c233a11dc5a447f87a698204aedbfd6",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261006T145736Z_b8c55b9b.json"
+    },
+    {
+      "case_id": "mcp_002",
+      "run_id": "42eb1ade3c1e45fda0b578e5a71ffa10",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261006T145736Z_b8c55b9b.json"
+    },
+    {
+      "case_id": "mcp_003",
+      "run_id": "0dde9508f1b245b0914effc2b5f9a10d",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261006T145736Z_b8c55b9b.json"
+    },
+    {
+      "case_id": "planning_001",
+      "run_id": "3bdeb622aeb842a58e84f885557b542e",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "planning_20261006T145918Z_39893e38.json"
+    },
+    {
+      "case_id": "planning_002",
+      "run_id": "5095e20bd45c434594b51c1043029d2d",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "planning_20261006T145918Z_39893e38.json"
+    },
+    {
+      "case_id": "web_native_001",
+      "run_id": "db13ce93777a45da9f2865bd6124285f",
+      "model": "gpt-6-luna",
+      "status": "pending_review",
+      "task_passed": null,
+      "source_file": "web_native_v2_20261006T145815Z_71e55a71.json"
+    },
+    {
+      "case_id": "web_native_002",
+      "run_id": "978ac67b71784025b96128e993a1fa58",
+      "model": "gpt-6-luna",
+      "status": "failed",
+      "task_passed": false,
+      "source_file": "web_native_v2_20261006T145815Z_71e55a71.json"
+    }
+  ],
+  "review_notes": {
+    "math_002": {
+      "finding": "wrong_operand_selection",
+      "detail": "Alpha net margin used previous-year revenue 1000 instead of current-year revenue 1250."
+    },
+    "web_native_002": {
+      "numeric_content_verified": true,
+      "citation_validation": "partial",
+      "review_status": "blocked_by_source_access",
+      "detail": "Figures independently verified against official sources. The exact Alphabet PDF cited by the agent returned 403 to the review tool. Overall task_passed remains null.",
+      "review_sources": [
+        "https://www.microsoft.com/investor/reports/ar24/",
+        "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm"
+      ]
+    }
+  },
+  "limitations": [
+    "Results describe the tested model, SDK configuration and fixtures.",
+    "One run per case; reliability and latency distributions not measured.",
+    "MCP tested using in-memory transport.",
+    "Web search used OpenAI hosted search through Deep Agents.",
+    "Planning was explicitly requested in the prompts.",
+    "History persistence tested across a Jupyter kernel restart.",
+    "Error cases used structured tool-result errors.",
+    "No winner across SDKs can be selected before testing the other SDKs."
+  ]
+}
