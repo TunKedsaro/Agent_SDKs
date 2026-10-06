@@ -7,7 +7,6 @@ services:
       - "${JUPYTER_PORT:-8888}:8888"
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY:?Please set OPENAI_API_KEY in the .env file}
-      TAVILY_API_KEY: ${TAVILY_API_KEY:?Please set TAVILY_API_KEY in the .env file}
       BENCHMARK_MODEL: ${BENCHMARK_MODEL:-openai:gpt-6-luna}
     volumes:
       - ./openai_agent:/workspace
@@ -21,10 +20,10 @@ services:
       - "${PI_JUPYTER_PORT:-8889}:8888"
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY:?Please set OPENAI_API_KEY in the .env file}
-      TAVILY_API_KEY: ${TAVILY_API_KEY:?Please set TAVILY_API_KEY in the .env file}
       BENCHMARK_MODEL: ${BENCHMARK_MODEL:-openai:gpt-6-luna}
     volumes:
       - ./pi_agent:/workspace/pi_agent
+      - /workspace/pi_agent/node_modules
       - ./shared:/workspace/shared
 
   deep-agent:

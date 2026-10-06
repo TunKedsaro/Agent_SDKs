@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "saved_at_utc": "2026-10-06T12:19:37.356253+00:00",
+  "sdk": "openai_agents",
+  "category": "benchmark_summary",
+  "results": [
+    {
+      "case_id": "error_001",
+      "case_version": null,
+      "fixture_version": "nonretryable_error_v1",
+      "run_id": "f5a2085614854170bfaab4978cd22ebc",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "error_handling_20261006T121937304216Z_70b8455c24fe4e66993bc51831879044.json",
+      "export_files": [
+        "error_handling_20261006T121937304216Z_70b8455c24fe4e66993bc51831879044.json"
+      ]
+    },
+    {
+      "case_id": "error_002",
+      "case_version": null,
+      "fixture_version": "retry_exhaustion_v1",
+      "run_id": "19e02babf7664d86952132eac5bb373f",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "error_handling_20261006T121937304216Z_70b8455c24fe4e66993bc51831879044.json",
+      "export_files": [
+        "error_handling_20261006T121937304216Z_70b8455c24fe4e66993bc51831879044.json"
+      ]
+    },
+    {
+      "case_id": "history_001",
+      "case_version": null,
+      "fixture_version": "session_history_v1",
+      "run_id": "e952cf7d1a254cdd9ce27772f4a44356",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "session_history_20261006T121811109777Z_7f0f452c05c14f589493708aed461e67.json",
+      "export_files": [
+        "session_history_20261006T121811109777Z_7f0f452c05c14f589493708aed461e67.json"
+      ]
+    },
+    {
+      "case_id": "history_002",
+      "case_version": null,
+      "fixture_version": "session_history_correction_v1",
+      "run_id": "a81ceea5f58246ef8788d2cd57d396ff",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "session_history_20261006T121811109777Z_7f0f452c05c14f589493708aed461e67.json",
+      "export_files": [
+        "session_history_20261006T121811109777Z_7f0f452c05c14f589493708aed461e67.json"
+      ]
+    },
+    {
+      "case_id": "history_003",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "4ccbfb65301c4b379d7f0e9c5ba135b3",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "session_history_20261006T121928031067Z_73f8c40eda63423595a1134cec2cd1f9.json",
+      "export_files": [
+        "session_history_20261006T121812859579Z_6960021d6d3f41dbba8e3d87096363b3.json",
+        "session_history_20261006T121928031067Z_73f8c40eda63423595a1134cec2cd1f9.json"
+      ]
+    },
+    {
+      "case_id": "long_context_001",
+      "case_version": null,
+      "fixture_version": "long_context_v1",
+      "run_id": "ae141c694db04bc296b539863d422194",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "long_context_20261006T121802528295Z_cbc2f637e85f477abf9dd8a46f13d65f.json",
+      "export_files": [
+        "long_context_20261006T121802528295Z_cbc2f637e85f477abf9dd8a46f13d65f.json"
+      ]
+    },
+    {
+      "case_id": "long_context_002",
+      "case_version": null,
+      "fixture_version": "long_context_v1_distractors_300",
+      "run_id": "21a092b4aca64b3488c55e6a0b1bfc38",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "long_context_20261006T121802528295Z_cbc2f637e85f477abf9dd8a46f13d65f.json",
+      "export_files": [
+        "long_context_20261006T121802528295Z_cbc2f637e85f477abf9dd8a46f13d65f.json"
+      ]
+    },
+    {
+      "case_id": "math_001",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "6466395641664b8aa3ee9685287afeb1",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "math_20261006T121541186854Z_e7c71a62f78f4c5eb1c63e4e5a1583de.json",
+      "export_files": [
+        "math_20261006T121541186854Z_e7c71a62f78f4c5eb1c63e4e5a1583de.json"
+      ]
+    },
+    {
+      "case_id": "math_002",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "ba570630cb3340aeae03df23284a7bed",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "math_20261006T121541186854Z_e7c71a62f78f4c5eb1c63e4e5a1583de.json",
+      "export_files": [
+        "math_20261006T121541186854Z_e7c71a62f78f4c5eb1c63e4e5a1583de.json"
+      ]
+    },
+    {
+      "case_id": "math_003",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "f7c03def178f4c818411d992663aaba6",
+      "model": "gpt-6-luna",
+      "status": "failed",
+      "task_passed": false,
+      "source_file": "math_20261006T121541186854Z_e7c71a62f78f4c5eb1c63e4e5a1583de.json",
+      "export_files": [
+        "math_20261006T121541186854Z_e7c71a62f78f4c5eb1c63e4e5a1583de.json"
+      ]
+    },
+    {
+      "case_id": "mcp_001",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "59094bdaa9594626a5ea9e47667232d6",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261006T121601978990Z_b3e67cc2c80f441ab7707ce6cea8cdad.json",
+      "export_files": [
+        "mcp_20261006T121601978990Z_b3e67cc2c80f441ab7707ce6cea8cdad.json"
+      ]
+    },
+    {
+      "case_id": "mcp_002",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "c5e843d567734b79b7acddc025458013",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261006T121601978990Z_b3e67cc2c80f441ab7707ce6cea8cdad.json",
+      "export_files": [
+        "mcp_20261006T121601978990Z_b3e67cc2c80f441ab7707ce6cea8cdad.json"
+      ]
+    },
+    {
+      "case_id": "mcp_003",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "588f8a94f02446359459ccf501f9b6f5",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261006T121601978990Z_b3e67cc2c80f441ab7707ce6cea8cdad.json",
+      "export_files": [
+        "mcp_20261006T121601978990Z_b3e67cc2c80f441ab7707ce6cea8cdad.json"
+      ]
+    },
+    {
+      "case_id": "planning_001",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "29dcb345d5074234b3c0751cbe3b8110",
+      "model": "gpt-6-luna",
+      "status": "pending_review",
+      "task_passed": null,
+      "source_file": "planning_20261006T121756687270Z_5a165d8e847f48589772f61c4f32c716.json",
+      "export_files": [
+        "planning_20261006T121756687270Z_5a165d8e847f48589772f61c4f32c716.json"
+      ]
+    },
+    {
+      "case_id": "planning_002",
+      "case_version": null,
+      "fixture_version": "planning_backup_v1",
+      "run_id": "f26b25e186094a9e9cca6d1a506f91ca",
+      "model": "gpt-6-luna",
+      "status": "pending_review",
+      "task_passed": null,
+      "source_file": "planning_20261006T121756687270Z_5a165d8e847f48589772f61c4f32c716.json",
+      "export_files": [
+        "planning_20261006T121756687270Z_5a165d8e847f48589772f61c4f32c716.json"
+      ]
+    },
+    {
+      "case_id": "smoke_001",
+      "case_version": null,
+      "fixture_version": null,
+      "run_id": "e61738cf563b4a3fa6b23d660ba9a9c9",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "smoke_20261006T121507221240Z_b89c563ca4f54f43861a622e2fc6980e.json",
+      "export_files": [
+        "smoke_20261006T121507221240Z_b89c563ca4f54f43861a622e2fc6980e.json"
+      ]
+    },
+    {
+      "case_id": "web_native_001",
+      "case_version": "2.0",
+      "fixture_version": null,
+      "run_id": "66f9d2a9579e499182b216ac024c7ab5",
+      "model": "gpt-6-luna",
+      "status": "pending_review",
+      "task_passed": null,
+      "source_file": "web_native_20261006T121644505961Z_7ce0cb63d2b34e81a1d7d7e9699af395.json",
+      "export_files": [
+        "web_native_20261006T121644505961Z_7ce0cb63d2b34e81a1d7d7e9699af395.json"
+      ]
+    },
+    {
+      "case_id": "web_native_002",
+      "case_version": "2.0",
+      "fixture_version": null,
+      "run_id": "78d269ed98474d0c8ae52f7c783cace9",
+      "model": "gpt-6-luna",
+      "status": "pending_review",
+      "task_passed": null,
+      "source_file": "web_native_20261006T121644505961Z_7ce0cb63d2b34e81a1d7d7e9699af395.json",
+      "export_files": [
+        "web_native_20261006T121644505961Z_7ce0cb63d2b34e81a1d7d7e9699af395.json"
+      ]
+    }
+  ],
+  "expected_main_case_count": 17,
+  "main_run_count": 17,
+  "main_status_counts": {
+    "passed": 12,
+    "failed": 1,
+    "pending_review": 4
+  },
+  "smoke_status_counts": {
+    "passed": 1
+  },
+  "duplicate_exports": 1,
+  "load_issues": [],
+  "groups": [
+    {
+      "case_id": "error_001",
+      "case_version": null,
+      "fixture_version": "nonretryable_error_v1",
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "error_002",
+      "case_version": null,
+      "fixture_version": "retry_exhaustion_v1",
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "history_001",
+      "case_version": null,
+      "fixture_version": "session_history_v1",
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "history_002",
+      "case_version": null,
+      "fixture_version": "session_history_correction_v1",
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "history_003",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "long_context_001",
+      "case_version": null,
+      "fixture_version": "long_context_v1",
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "long_context_002",
+      "case_version": null,
+      "fixture_version": "long_context_v1_distractors_300",
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "math_001",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "math_002",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "math_003",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "failed": 1
+      }
+    },
+    {
+      "case_id": "mcp_001",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "mcp_002",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "mcp_003",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "planning_001",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "pending_review": 1
+      }
+    },
+    {
+      "case_id": "planning_002",
+      "case_version": null,
+      "fixture_version": "planning_backup_v1",
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "pending_review": 1
+      }
+    },
+    {
+      "case_id": "smoke_001",
+      "case_version": null,
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "passed": 1
+      }
+    },
+    {
+      "case_id": "web_native_001",
+      "case_version": "2.0",
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "pending_review": 1
+      }
+    },
+    {
+      "case_id": "web_native_002",
+      "case_version": "2.0",
+      "fixture_version": null,
+      "model": "gpt-6-luna",
+      "status_counts": {
+        "pending_review": 1
+      }
+    }
+  ],
+  "limitations": [
+    "ผลสะท้อน model, SDK version, system scaffolding และ fixtures ที่บันทึกไว้",
+    "ไม่มีคะแนนหรือคำวิเคราะห์รอบเก่าของ Deep Agents ถูกนำมาใช้",
+    "recursion_limit กับ max_turns ไม่ใช่หน่วยเดียวกัน",
+    "MCP transport เปลี่ยนจาก in-memory เป็น localhost Streamable HTTP",
+    "Planning ใช้ custom write_todos; prompts ขอให้วางแผนอย่างชัดเจน",
+    "Web open_page action และ citations อย่างเดียวไม่ยืนยัน content support",
+    "usage unavailable เป็น null; partial usage ไม่ใช้เป็นยอดรวมที่ครบ",
+    "ผลรอบเดียวไม่บอกการกระจาย latency หรือความเสถียร และยังเลือกผู้ชนะข้าม SDK ไม่ได้"
+  ]
+}
