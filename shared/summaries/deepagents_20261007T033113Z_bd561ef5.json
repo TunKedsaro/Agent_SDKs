@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "sdk": "deepagents",
+  "scope": "latest_run_per_case",
+  "saved_at_utc": "2026-10-07T03:31:13.513227+00:00",
+  "saved_run_count": 17,
+  "status_counts": {
+    "passed": 17
+  },
+  "smoke_test_included": false,
+  "cases": [
+    {
+      "case_id": "error_001",
+      "run_id": "b39c40cea848473ab6e74a5e1782f7aa",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "error_handling_20261007T032704Z_d76298df.json"
+    },
+    {
+      "case_id": "error_002",
+      "run_id": "7c32f52406954f2da1e9742fa34a377f",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "error_handling_20261007T032704Z_d76298df.json"
+    },
+    {
+      "case_id": "history_001",
+      "run_id": "223651a6f4cc409081e85efc1cb49c12",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "history_20261007T032649Z_bc49c79d.json"
+    },
+    {
+      "case_id": "history_002",
+      "run_id": "38aea65305c5464da1e99401ec4f5d6c",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "history_20261007T032649Z_bc49c79d.json"
+    },
+    {
+      "case_id": "history_003",
+      "run_id": "e6b998967f8c4cc9b737a428b60ed664",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "history_003_20261007T032656Z_216ee465.json"
+    },
+    {
+      "case_id": "long_context_001",
+      "run_id": "c7cf0f2bc2784651ad5e2d33e142cede",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "long_context_20261007T032642Z_e1c97426.json"
+    },
+    {
+      "case_id": "long_context_002",
+      "run_id": "94d505b324e14291b9586ff09ef6045c",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "long_context_20261007T032642Z_e1c97426.json"
+    },
+    {
+      "case_id": "math_001",
+      "run_id": null,
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "math_20261007T032404Z_67256061.json"
+    },
+    {
+      "case_id": "math_002",
+      "run_id": null,
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "math_20261007T032404Z_67256061.json"
+    },
+    {
+      "case_id": "math_003",
+      "run_id": null,
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "math_20261007T032404Z_67256061.json"
+    },
+    {
+      "case_id": "mcp_001",
+      "run_id": "3bfd3475d5f64c01b2c0e43f86ccb984",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261007T032422Z_72d1f055.json"
+    },
+    {
+      "case_id": "mcp_002",
+      "run_id": "466b37799b7b4cc8b224d2a15b457967",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261007T032422Z_72d1f055.json"
+    },
+    {
+      "case_id": "mcp_003",
+      "run_id": "690ce13b3dde4bc9a118116ac5730e6a",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "mcp_20261007T032422Z_72d1f055.json"
+    },
+    {
+      "case_id": "planning_001",
+      "run_id": "660d1563e97248d6bfc1148f192070c6",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "planning_20261007T032636Z_2bece0e3.json"
+    },
+    {
+      "case_id": "planning_002",
+      "run_id": "4e2d7ad8deef461189b195cfa3d74e44",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "planning_20261007T032636Z_2bece0e3.json"
+    },
+    {
+      "case_id": "web_native_001",
+      "run_id": "5790c533274d48eaaf3036a1c69a186d",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "web_native_v2_20261007T033113Z_21646cd8.json"
+    },
+    {
+      "case_id": "web_native_002",
+      "run_id": "10a3268cdbe14867b6e550e751c7bb9a",
+      "model": "gpt-6-luna",
+      "status": "passed",
+      "task_passed": true,
+      "source_file": "web_native_v2_20261007T033113Z_21646cd8.json"
+    }
+  ],
+  "review_notes": {
+    "planning_001": {
+      "method": "llm_rubric_review_with_workflow_gates",
+      "rubric_version": "2026-10-07.1",
+      "run_id": "660d1563e97248d6bfc1148f192070c6",
+      "grader_model": "gpt-6-luna",
+      "reviewed_at_utc": "2026-10-07T03:25:43.227522+00:00",
+      "rubric": {
+        "metrics_and_missing_data": "For 2025, growth/net margin/liabilities-to-assets (%): Delta 30/12/30; Echo 20/20/60; Foxtrot 20/N/A/20. Foxtrot net profit is missing and must not be invented or treated as zero. Delta and Echo have all three metrics; Foxtrot does not. The Thai table and completeness conclusion must be correct.",
+        "source_ids": "Each company's answer must cite the source ID actually returned by its tools. Delta fixture_delta_v1, Foxtrot fixture_foxtrot_v1. Echo uses fixture_echo_v1 in planning_001, fixture_echo_backup_2025 in planning_002; never use the 2024 backup for 2025.",
+        "calculation_arguments": "Inspect the trace: calculate_percentage must be used for all computable metrics with correct values and mode. growth(current, previous): Delta(1300,1000), Echo(960,800), Foxtrot(1800,1500); ratio(profit,current revenue): (156,1300),(192,960); ratio(liabilities,assets): (540,1800),(900,1500),(400,2000). No invented Foxtrot profit. Equivalent correct computations are acceptable.",
+        "plan_matches_work": "An actionable plan precedes data calls and its intermediate progress updates correspond to the work observed in the trace, rather than merely claiming work was done. All final plan items must be complete."
+      },
+      "reference_sources": [
+        "PLANNING_DATA",
+        "BACKUP_SOURCES"
+      ],
+      "criteria": {
+        "metrics_and_missing_data": {
+          "passed": true,
+          "evidence": "The Thai table reports Delta 30.0%/12.0%/30.0%, Echo 20.0%/20.0%/60.0%, and Foxtrot 20.0%/N/A/20.0%. The final answer says Foxtrot’s 2025 net profit is unavailable and therefore net margin cannot be calculated; it marks Delta and Echo complete and Foxtrot incomplete."
+        },
+        "source_ids": {
+          "passed": true,
+          "evidence": "The final table cites Delta `fixture_delta_v1`, Echo `fixture_echo_v1`, and Foxtrot `fixture_foxtrot_v1`. The financial-data tool results at trace messages 8–10 return those same IDs for 2025."
+        },
+        "calculation_arguments": {
+          "passed": true,
+          "evidence": "Trace message 13 shows calculate_percentage calls using growth (1300,1000), (960,800), (1800,1500), and ratio (156,1300), (192,960), (540,1800), (900,1500), (400,2000). The modes match the metrics, and successful tool outputs at messages 14–21 return the expected percentages. No Foxtrot profit calculation is attempted."
+        },
+        "plan_matches_work": {
+          "passed": true,
+          "evidence": "Trace message 1 creates an actionable to-do plan before the first data tool call at message 3. Subsequent updates mark company listing complete before financial reads, financial reads complete before calculations, and calculations complete before the Thai summary; the final update at message 24 marks every item complete."
+        }
+      },
+      "usage": {
+        "input_tokens": 13717,
+        "output_tokens": 471,
+        "total_tokens": 14188,
+        "input_token_details": {
+          "cache_creation": 13714,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 87
+        }
+      },
+      "latency_s": 5.5
+    },
+    "planning_002": {
+      "method": "llm_rubric_review_with_workflow_gates",
+      "rubric_version": "2026-10-07.1",
+      "run_id": "4e2d7ad8deef461189b195cfa3d74e44",
+      "grader_model": "gpt-6-luna",
+      "reviewed_at_utc": "2026-10-07T03:26:30.487458+00:00",
+      "rubric": {
+        "metrics_and_missing_data": "For 2025, growth/net margin/liabilities-to-assets (%): Delta 30/12/30; Echo 20/20/60; Foxtrot 20/N/A/20. Foxtrot net profit is missing and must not be invented or treated as zero. Delta and Echo have all three metrics; Foxtrot does not. The Thai table and completeness conclusion must be correct.",
+        "source_ids": "Each company's answer must cite the source ID actually returned by its tools. Delta fixture_delta_v1, Foxtrot fixture_foxtrot_v1. Echo uses fixture_echo_v1 in planning_001, fixture_echo_backup_2025 in planning_002; never use the 2024 backup for 2025.",
+        "calculation_arguments": "Inspect the trace: calculate_percentage must be used for all computable metrics with correct values and mode. growth(current, previous): Delta(1300,1000), Echo(960,800), Foxtrot(1800,1500); ratio(profit,current revenue): (156,1300),(192,960); ratio(liabilities,assets): (540,1800),(900,1500),(400,2000). No invented Foxtrot profit. Equivalent correct computations are acceptable.",
+        "plan_matches_work": "An actionable plan precedes data calls and its intermediate progress updates correspond to the work observed in the trace, rather than merely claiming work was done. All final plan items must be complete.",
+        "obstacles_and_replanning": "The trace must show a CONTENT change to the plan after discovering an obstacle and before trying the alternative (a status-only change is insufficient). The answer explains the unavailable Echo primary, selection of the matching 2025 backup, and the remaining missing Foxtrot profit. No unjustified retry of the nonretryable primary."
+      },
+      "reference_sources": [
+        "PLANNING_DATA",
+        "BACKUP_SOURCES"
+      ],
+      "criteria": {
+        "metrics_and_missing_data": {
+          "passed": true,
+          "evidence": "The Thai table reports Delta 30.0%/12.0%/30.0%, Echo 20.0%/20.0%/60.0%, and Foxtrot 20.0%/N/A/20.0%; it marks Delta and Echo complete and Foxtrot incomplete. The answer says Foxtrot lacks net profit and that its net margin cannot be calculated."
+        },
+        "source_ids": {
+          "passed": true,
+          "evidence": "The primary tool result for Delta gives source_id `fixture_delta_v1`, and the answer cites it; Foxtrot's result gives `fixture_foxtrot_v1`, also cited. Echo's source search lists both 2024 and 2025 backups, and the trace reads `fixture_echo_backup_2025` with year 2025; the answer cites that ID, not the 2024 source."
+        },
+        "calculation_arguments": {
+          "passed": true,
+          "evidence": "The trace calls calculate_percentage with the required arguments and modes: growth (1300,1000), (960,800), (1800,1500); ratio (156,1300), (192,960), (540,1800), (900,1500), and (400,2000). The returned percentages match the table. There is no calculation using Foxtrot net profit."
+        },
+        "plan_matches_work": {
+          "passed": true,
+          "evidence": "The initial write_todos plan occurs before the data calls and lists company/source checks, handling missing data and alternatives, calculations, and summary. Subsequent updates record the primary-source error and missing Foxtrot profit, then the Echo 2025 backup read, calculations, and completion. The final todo entries are marked completed."
+        },
+        "obstacles_and_replanning": {
+          "passed": true,
+          "evidence": "After Echo's primary read returns `PRIMARY_SOURCE_UNAVAILABLE` with `retryable: false` (message 7), the plan's content is changed at message 9 to search alternatives without retrying Echo's primary; this precedes the alternative-source calls at message 11. The answer explains the unavailable primary, the selection and verification of the Echo 2025 backup, and Foxtrot's remaining missing profit. The trace shows no unjustified retry of Echo's primary."
+        }
+      },
+      "usage": {
+        "input_tokens": 16998,
+        "output_tokens": 613,
+        "total_tokens": 17611,
+        "input_token_details": {
+          "cache_creation": 16995,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 130
+        }
+      },
+      "latency_s": 5.95
+    },
+    "web_native_001": {
+      "method": "llm_rubric_review_with_workflow_gates",
+      "rubric_version": "2026-10-07.1",
+      "run_id": "5790c533274d48eaaf3036a1c69a186d",
+      "grader_model": "gpt-6-luna",
+      "reviewed_at_utc": "2026-10-07T03:30:27.183208+00:00",
+      "rubric": {
+        "annual_revenues": "Microsoft consolidated full-year revenues are 245122 for FY2024 and 211915 for FY2023, in million USD. Both values, years and unit must be stated correctly.",
+        "fiscal_year_ends": "FY2024 ends 2024-06-30 and FY2023 ends 2023-06-30. Both end dates must be stated (Thai dates are acceptable).",
+        "growth_calculation": "Must show (245122 - 211915) / 211915 * 100, or a mathematically equivalent formula with substituted values, and the two-decimal result 15.67%.",
+        "supported_citations": "The citations and opened URLs must include an official Microsoft annual report or full-year earnings statement supporting these figures. An unrelated corporate homepage or search snippet is insufficient.",
+        "thai_answer": "A Thai answer must include a comparison table, formula/calculation and a short conclusion that revenue increased. No contradictory figures or unsupported claims."
+      },
+      "reference_sources": [
+        "https://www.microsoft.com/investor/reports/ar24/",
+        "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm"
+      ],
+      "criteria": {
+        "annual_revenues": {
+          "passed": true,
+          "evidence": "The table states FY2023 revenue as “211,915” and FY2024 as “245,122,” with the column labeled “รายได้รวม (ล้านดอลลาร์สหรัฐ)” (total revenue in million USD)."
+        },
+        "fiscal_year_ends": {
+          "passed": true,
+          "evidence": "The table gives FY2023 as “30 มิถุนายน 2023” and FY2024 as “30 มิถุนายน 2024.”"
+        },
+        "growth_calculation": {
+          "passed": true,
+          "evidence": "The answer shows “(245,122−211,915)/211,915×100 = 15.67%,” with the required substituted values and two-decimal result."
+        },
+        "supported_citations": {
+          "passed": true,
+          "evidence": "The citation and opened_urls identify Microsoft’s official FY24 Q4 Income Statements page: https://www.microsoft.com/en-us/Investor/earnings/FY-2024-Q4/income-statements. The tool trace records an open_page call for that URL."
+        },
+        "thai_answer": {
+          "passed": true,
+          "evidence": "The response is in Thai and includes a comparison table, the formula and calculation, and the conclusion “รายได้รวมของ Microsoft เพิ่มขึ้น” (Microsoft’s total revenue increased), without contradictory figures."
+        }
+      },
+      "usage": {
+        "input_tokens": 1538,
+        "output_tokens": 485,
+        "total_tokens": 2023,
+        "input_token_details": {
+          "cache_creation": 1535,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 166
+        }
+      },
+      "latency_s": 5.73
+    },
+    "web_native_002": {
+      "method": "llm_rubric_review_with_workflow_gates",
+      "rubric_version": "2026-10-07.1",
+      "run_id": "10a3268cdbe14867b6e550e751c7bb9a",
+      "grader_model": "gpt-6-luna",
+      "reviewed_at_utc": "2026-10-07T03:31:07.311830+00:00",
+      "rubric": {
+        "annual_gaap_figures": "FY2024 consolidated GAAP figures, million USD: Microsoft revenue 245122 and operating income 109433; Alphabet revenue 350018 and operating income 112390. All four figures and the unit must be correct; quarterly/segment/non-GAAP figures are not substitutes.",
+        "fiscal_periods": "Must state both starts and ends: Microsoft 2023-07-01 to 2024-06-30; Alphabet 2024-01-01 to 2024-12-31. Explain that different periods limit direct comparison.",
+        "margin_calculations": "Show operating income / revenue * 100 with substituted values for each company, and two-decimal margins: Microsoft 44.64%, Alphabet 32.11%.",
+        "supported_citations": "Citations and actual opened URLs must identify supporting annual financial publications for EACH company (company IR or its SEC filing). Verify the company and year from the supplied evidence; a homepage or unrelated document is insufficient.",
+        "thai_conclusion": "Thai comparison table and conclusion: Microsoft's operating margin is higher for these statements. Include the differing fiscal-period limitation and do not claim that Microsoft is better in all respects."
+      },
+      "reference_sources": [
+        "https://www.microsoft.com/investor/reports/ar24/",
+        "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm"
+      ],
+      "criteria": {
+        "annual_gaap_figures": {
+          "passed": true,
+          "evidence": "ตารางระบุรายได้และ operating income เป็นล้านดอลลาร์สหรัฐ: Microsoft 245,122 และ 109,433; Alphabet 350,018 และ 112,390. คำตอบยังระบุว่าตัวเลขเป็นงบรวม GAAP รายปี ไม่ใช่รายไตรมาสหรือราย segment."
+        },
+        "fiscal_periods": {
+          "passed": true,
+          "evidence": "ตารางระบุ Microsoft 1 กรกฎาคม 2023–30 มิถุนายน 2024 และ Alphabet 1 มกราคม–31 ธันวาคม 2024. คำตอบกล่าวว่าช่วงเวลาไม่ตรงกันและเปรียบเทียบไม่ได้ครอบคลุมเดือนเดียวกันทั้งหมด."
+        },
+        "margin_calculations": {
+          "passed": true,
+          "evidence": "แสดงสูตร “Operating margin = (กำไรจากการดำเนินงาน ÷ รายได้รวม) × 100” และแทนค่า Microsoft (109,433 ÷ 245,122) × 100 = 44.64%; Alphabet (112,390 ÷ 350,018) × 100 = 32.11%."
+        },
+        "supported_citations": {
+          "passed": true,
+          "evidence": "คำตอบอ้าง Microsoft 2024 Annual Report และ Form 10-K ของ Alphabet สำหรับปีสิ้นสุด 31 ธันวาคม 2024. Trace มีการเปิด URL https://www.microsoft.com/investor/reports/ar24/index.html และ https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm; ชื่อเอกสารและ URL ระบุบริษัทและปีที่เกี่ยวข้อง."
+        },
+        "thai_conclusion": {
+          "passed": true,
+          "evidence": "คำตอบภาษาไทยมีตารางเปรียบเทียบและสรุปว่า “Microsoft มี operating margin สูงกว่า Alphabet” พร้อมอธิบายข้อจำกัดจากช่วงปีงบประมาณที่ไม่ตรงกัน และระบุว่า margin ตัวเดียวไม่พอสรุปว่าบริษัทใดดีกว่าในทุกด้าน."
+        }
+      },
+      "usage": {
+        "input_tokens": 2995,
+        "output_tokens": 599,
+        "total_tokens": 3594,
+        "input_token_details": {
+          "cache_creation": 2992,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 164
+        }
+      },
+      "latency_s": 6.14
+    }
+  },
+  "limitations": [
+    "Results describe the tested model, SDK configuration and fixtures.",
+    "Latest run per case; historical runs retained, reliability distributions not measured.",
+    "MCP tested using in-memory transport.",
+    "Web search used OpenAI hosted search through Deep Agents.",
+    "Planning was explicitly requested in the prompts.",
+    "Web and planning content use an LLM rubric reviewer with deterministic workflow gates; reviewer can make mistakes.",
+    "History persistence tested across fresh Python processes using SQLite.",
+    "Error cases used structured tool-result errors.",
+    "No winner across SDKs can be selected before testing the other SDKs."
+  ]
+}
